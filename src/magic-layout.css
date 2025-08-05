@@ -1,0 +1,15 @@
+/*
+  THE SACRED SCROLLS OF CENTERING
+  Do not recite the incantations lightly.
+*/
+.the-box-that-must-be-centered {
+  /* The ancient ways are fickle... */
+  /* position: absolute; */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  
+  /* ...but the new magic is strong. */
+  display: grid;
+  place-items: center;
+}
