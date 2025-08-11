@@ -1,5 +1,17 @@
 // src/life-of-a-dev.js
 
+
+function drinkCoffee() {
+  console.log("Drinking coffee...");
+}
+
+function drinkMoreCoffee() {
+  console.log("Drinking even more coffee...");
+}
+
+function code(task) {
+  console.log(`Coding a task with complexity ${task.complexity.toFixed(2)}...`);
+}
 function getTask() {
   // ...fetches an endless stream of feature requests
   return { complexity: Math.random() * 100 };
