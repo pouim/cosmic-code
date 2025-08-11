@@ -3,6 +3,7 @@
 function getTask() {
   // ...fetches an endless stream of feature requests
   return { complexity: Math.random() * 100 };
+  
 }
 
 let isTired = true;
